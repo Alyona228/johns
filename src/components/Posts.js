@@ -8,6 +8,7 @@ export default function Posts(props) {
         <div className='posts_header'>Recent posts</div>
         <div className='posts_content'>
           <Post title={props.title} />
+          <Post title={props.title} />
           <div className='posts_post'>
             <div className='posts_title'>{props.title1}</div>
             <div className='posts_info'>

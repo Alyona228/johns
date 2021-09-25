@@ -9,11 +9,17 @@ import Header from './components/Header'
 
 class App extends React.Component {
   state = {
-    title: [
-      'Making a design system from scratch',
-      'Creating pixel perfect icons in Figma',
-      '',
-    ],
+    post:[
+      title: [
+        'Making a design system from scratch',
+        'Creating pixel perfect icons in Figma',
+        '',
+      ],
+      data: [
+        
+      ]
+    ]
+    
   }
   render() {
     return (
