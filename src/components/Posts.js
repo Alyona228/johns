@@ -7,13 +7,12 @@ export default function Posts(props) {
       <div className='posts_container'>
         <div className='posts_header'>Recent posts</div>
         <div className='posts_content'>
-          <Post title={props.title} />
-          <Post title={props.title} />
+          <Post title={props.title} data={props.data} format={props.format} />
           <div className='posts_post'>
             <div className='posts_title'>{props.title1}</div>
             <div className='posts_info'>
-              <div className='posts_date'>12 Feb 2020</div>
-              <div className='posts_format'>Design, Pattern</div>
+              <div className='posts_date'>{props.data1}</div>
+              <div className='posts_format'>{props.format1}</div>
             </div>
             <div className='posts_text'>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor

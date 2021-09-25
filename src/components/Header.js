@@ -4,7 +4,7 @@ import '../styles/header.css'
 export default function Header() {
   return (
     <div className='header'>
-      <div classNameName='header_menu'>
+      <div className='header_menu'>
         <nav className='menu_body'>
           <ul className='menu_list'>
             <li>

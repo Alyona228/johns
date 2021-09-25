@@ -6,8 +6,8 @@ export default function Post(props) {
     <div className='posts_post'>
       <div className='posts_title'>{props.title}</div>
       <div className='posts_info'>
-        <div className='posts_date'>12 Feb 2020</div>
-        <div className='posts_format'>Design, Pattern</div>
+        <div className='posts_date'>{props.data}</div>
+        <div className='posts_format'>{props.format}</div>
       </div>
       <div className='posts_text'>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet
