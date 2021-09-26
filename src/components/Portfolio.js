@@ -14,9 +14,7 @@ export default function Portfolio(props) {
             sint. Velit officia consequat duis enim velit mollit.Exercitation
             veniam consequat sunt nostrud amet{' '}
           </div>
-          <button className='portfolio_btn' onClick={props.addChange}>
-            Donload Resume
-          </button>
+          <button className='portfolio_btn'>Donload Resume</button>
         </div>
         <div className='portfolio_photo'>
           <img src={Avatar} alt='text' />

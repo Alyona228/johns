@@ -1,4 +1,5 @@
 import React from 'react'
+
 import '../styles/posts.css'
 
 export default function Post(props) {
@@ -6,7 +7,7 @@ export default function Post(props) {
     <div className='posts_post'>
       <div className='posts_title'>{props.title}</div>
       <div className='posts_info'>
-        <div className='posts_date'>{props.data}</div>
+        <div className='posts_date'> {props.date}</div>
         <div className='posts_format'>{props.format}</div>
       </div>
       <div className='posts_text'>

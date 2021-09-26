@@ -1,4 +1,4 @@
-.futter {
+.footer {
   display: flex;
   position: relative;
   bottom: 0;
@@ -9,16 +9,16 @@
   margin-top: 113px;
   margin-right: -3px;
 }
-.futter_text {
+.footer_text {
   text-align: center;
 }
-.futtet_icon {
+.footer_icon {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 30px;
   margin: 0 auto;
 }
-.futter_icon_i {
+.footer_icon_i {
   margin-left: 30px;
 }

@@ -1,50 +1,42 @@
 import { render } from '@testing-library/react'
 import React from 'react'
 import './App.css'
-import Futter from './components/Futter'
+import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
 import Posts from './components/Posts'
 import Works from './components/Works'
 import Header from './components/Header'
+import Work from './components/Work'
+import { Route, NavLink, Switch } from 'react-router-dom'
 
 class App extends React.Component {
   state = {
-    post: [
+    posts: [
       {
-        title: [
-          'Making a design system from scratch',
-          'Creating pixel perfect icons in Figma',
-          '',
-        ],
+        title: 'Making a design system from scratch',
+        date: '12 Feb 2020',
+        format: 'Design, Pattern',
       },
+
       {
-        data: ['12 Feb 2020', '12 Feb 2020'],
-      },
-      {
-        format: ['Design, Pattern', 'Figma, Icon Design'],
+        title: 'Creating pixel perfect icons in Figma',
+        date: '12 Feb 2020',
+        format: 'Figma, Icon Design',
       },
     ],
+    showMenu: false,
   }
-  addChange = () => {
-    let i = this.state.post[1].data[1]
-    return console.log(i)
+  ShowMenu = () => {
+    this.setState({ showMenu: true })
   }
-
   render() {
     return (
       <div className='App'>
-        <Header />
-        <Portfolio addChange={this.addChange} />
+        <Header ShowMenu={this.ShowMenu} showMenu={this.state.showMenu} />
+        <Portfolio />
         <Works />
-        <Posts
-          title={this.state.post[0].title[0]}
-          title1={this.state.post[0].title[1]}
-          data={this.state.post[1].data[0]}
-          data1={this.state.post[1].data[1]}
-          format={this.state.post[2].format[0]}
-          format1={this.state.post[2].format[1]}
-        />
-        <Futter />
+        <Posts posts={this.state.posts} />
+        <Footer />
       </div>
     )
   }

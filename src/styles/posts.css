@@ -59,6 +59,7 @@
 
 @media (max-width: 375px) {
   .posts {
+    text-align: left;
   }
   .posts_container {
     width: 354px;

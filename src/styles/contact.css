@@ -139,7 +139,7 @@ img {
   align-items: center;
 }
 
-.futter_text {
+.footer_text {
   text-align: center;
   margin-left: 4px;
   margin-top: -12px;
@@ -153,7 +153,7 @@ img {
   position: relative;
   margin-left: -175px;
 }
-.futter_icon_i {
+.footer_icon_i {
   width: 27px;
   height: 32px;
   padding: 0px 20px;

@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   margin: auto;
-  max-width: 850px;
+  max-width: 1180px;
 }
 @media (max-width: 375px) {
   .App {

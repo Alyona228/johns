@@ -70,6 +70,9 @@
     text-align: center;
     margin: 0 auto;
   }
+  .works_content {
+    padding-left: 40px;
+  }
   .work_featured {
     max-width: 370px;
     padding-left: 18px;
@@ -83,7 +86,6 @@
   }
   .works_container {
     display: flex;
-    text-align: left;
     flex-direction: column;
     width: 344px;
   }
@@ -91,16 +93,19 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
+    text-align: left;
   }
   .works_data {
     margin-top: 16px;
     margin-bottom: 24px;
   }
   .works_data_info {
+    text-align: center;
   }
   .works_description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
   }
 }
