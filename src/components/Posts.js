@@ -7,7 +7,7 @@ export default function Posts(props) {
       <div className='posts_container'>
         <div className='posts_header'>Recent posts</div>
         <div className='posts_content'>
-          {props.posts.map((post, key) => (
+          {props.posts?.map((post, key) => (
             <Post
               key={key}
               title={post.title}

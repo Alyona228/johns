@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/menu.css'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Work from '../components/Work.js'
 import iconBurg from '../icons/hamburg.svg'
 export default function Menu(props) {
@@ -16,23 +16,18 @@ export default function Menu(props) {
               <ul className='menu_ul'>
                 <li>
                   <a href='./src/work.html' className='menu_li'>
-                    {' '}
-                    Works{' '}
-                  </a>{' '}
+                    Works
+                  </a>
                 </li>
                 <li>
-                  {' '}
                   <a href='./src/blog.html' className='menu_li'>
-                    {' '}
-                    Blog{' '}
-                  </a>{' '}
+                    Blog
+                  </a>
                 </li>
                 <li>
-                  {' '}
                   <a href='./src/contact.html' className='menu_li'>
-                    {' '}
-                    Contact{' '}
-                  </a>{' '}
+                    Contact
+                  </a>
                 </li>
               </ul>
             </nav>

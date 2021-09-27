@@ -1,13 +1,7 @@
-import { render } from '@testing-library/react'
 import React from 'react'
 import './App.css'
-import Footer from './components/Footer'
-import Portfolio from './components/Portfolio'
-import Posts from './components/Posts'
-import Works from './components/Works'
 import Header from './components/Header'
-import Work from './components/Work'
-import { Route, NavLink, Switch } from 'react-router-dom'
+import Routing from './components/Routing'
 
 class App extends React.Component {
   state = {
@@ -33,10 +27,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Header ShowMenu={this.ShowMenu} showMenu={this.state.showMenu} />
-        <Portfolio />
-        <Works />
-        <Posts posts={this.state.posts} />
-        <Footer />
+        <Routing />
       </div>
     )
   }
