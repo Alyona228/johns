@@ -1,13 +1,33 @@
 import React from 'react'
 import '../styles/posts.css'
 import Post from '../components/Post.js'
-export default function Posts(props) {
+
+function Posts({ props }) {
+  const posts = [
+      {
+        title: 'Making a design system from scratch',
+        date: '12 Feb 2020',
+        format: 'Design, Pattern',
+      },
+
+      {
+        title: 'Creating pixel perfect icons in Figma',
+        date: '12 Feb 2020',
+        format: 'Figma, Icon Design',
+      },
+    ],
+    // let showMenu: false,
+
+    ShowMenu = () => {
+      this.setState({ showMenu: true })
+    }
+
   return (
     <div className='posts'>
       <div className='posts_container'>
         <div className='posts_header'>Recent posts</div>
         <div className='posts_content'>
-          {props.posts?.map((post, key) => (
+          {posts.map((post, key) => (
             <Post
               key={key}
               title={post.title}
@@ -20,3 +40,4 @@ export default function Posts(props) {
     </div>
   )
 }
+export default Posts

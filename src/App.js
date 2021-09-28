@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Header from './components/Header'
 import Routing from './components/Routing'
+import Posts from './components/Posts'
 
 class App extends React.Component {
   state = {
@@ -27,7 +28,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Header ShowMenu={this.ShowMenu} showMenu={this.state.showMenu} />
-        <Routing />
+         <Routing />
       </div>
     )
   }

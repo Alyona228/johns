@@ -13,6 +13,7 @@ export default function HomePages(props) {
       <Portfolio />
       <Posts>
         <Post />
+        <Post />
       </Posts>
       <Works />
       <Footer />
