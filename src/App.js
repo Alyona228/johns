@@ -2,23 +2,11 @@ import React from 'react'
 import './App.css'
 import Header from './components/Header'
 import Routing from './components/Routing'
-import Posts from './components/Posts'
-
+import WorksPages from './components/pages/WorksPages'
+import BlogPages from './components/pages/BlogPages'
 class App extends React.Component {
   state = {
-    posts: [
-      {
-        title: 'Making a design system from scratch',
-        date: '12 Feb 2020',
-        format: 'Design, Pattern',
-      },
-
-      {
-        title: 'Creating pixel perfect icons in Figma',
-        date: '12 Feb 2020',
-        format: 'Figma, Icon Design',
-      },
-    ],
+    title: ['Works', 'Blog'],
     showMenu: false,
   }
   ShowMenu = () => {
@@ -28,7 +16,10 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Header ShowMenu={this.ShowMenu} showMenu={this.state.showMenu} />
-         <Routing />
+
+        <Routing />
+        {/* <WorksPages title={this.state.title[0]} />
+        <BlogPages title={this.state.title[1]} /> */}
       </div>
     )
   }

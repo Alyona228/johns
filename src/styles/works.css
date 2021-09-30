@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .works {
   width: 100%;
   padding-bottom: 32px;
@@ -8,6 +9,12 @@
   font-family: 'Heebo';
   text-align: left;
   color: #21243d;
+}
+.works_title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-left: 160px;
 }
 .work_featured {
   width: 856px;

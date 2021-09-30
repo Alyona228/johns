@@ -7,11 +7,10 @@ import image4 from '../img/im4.jpg'
 import Footer from './Footer'
 import Header from './Header'
 
-export default function Work(props) {
+export default function Work({ props }) {
   return (
     <div>
       <Header />
-      <h2>Work</h2>
       <div class='work'>
         <div class='work_cont'>
           <div class='work_img'>
@@ -79,10 +78,10 @@ export default function Work(props) {
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </div>
+            <Footer />
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/header.css'
 import Menu from '../components/Menu.js'
 import { NavLink } from 'react-router-dom'
+import Routing from './Routing'
 
 export default function Header(props) {
   return (
@@ -12,17 +13,17 @@ export default function Header(props) {
             <nav className='menu_body'>
               <ul className='menu_list'>
                 <li>
-                  <NavLink to='/' className='menu_link'>
+                  <NavLink to='/works' className='menu_link'>
                     Works
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/portfolio' className='menu_link'>
+                  <NavLink to='/blog' className='menu_link'>
                     Blog
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/posts' className='menu_link'>
+                  <NavLink to='/' className='menu_link'>
                     Contact
                   </NavLink>
                 </li>

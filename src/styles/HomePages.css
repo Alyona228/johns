@@ -1,0 +1,21 @@
+.works {
+  width: 100%;
+  padding-bottom: 32px;
+  padding-top: 29px;
+  font-family: 'Heebo';
+  text-align: left;
+  color: #21243d;
+}
+.works_header {
+  text-align: left;
+}
+.work_title {
+  text-align: left;
+}
+.works_pages {
+  max-width: 1140px;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50);
+  background-color: blueviolet;
+}
