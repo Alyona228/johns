@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/menu.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Work from '../components/Work.js'
 import iconBurg from '../icons/hamburg.svg'
+
 export default function Menu(props) {
   return (
     <div className='header_content'>
@@ -34,11 +33,11 @@ export default function Menu(props) {
           </div>
         ) : undefined}
 
-        <Router>
+        {/* <Router>
           <Switch>
             <Route exact path='/work' component={Work} />
           </Switch>
-        </Router>
+        </Router> */}
       </div>
     </div>
   )

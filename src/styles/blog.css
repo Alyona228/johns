@@ -2,11 +2,14 @@
   width: 100%;
   min-width: 100%;
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 0 20px;
   font-family: 'Heebo', sans-serif;
   text-align: left;
   color: #21243d;
+  left: 75%;
+  transform: translateX(-50%);
 }
 
 .main h1 {

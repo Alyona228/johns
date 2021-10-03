@@ -8,7 +8,7 @@ export default function WorksPages(props) {
   return (
     <>
       <Header />
-      {props.title}
+      <h1 className='homepages_title'> Work</h1>
       <Works />
       <Footer />
     </>

@@ -16,10 +16,8 @@ function Posts({ props }) {
         format: 'Figma, Icon Design',
       },
     ],
-    // let showMenu: false,
-
     ShowMenu = () => {
-      this.setState({ showMenu: true })
+      // this.setState({ showMenu: true })
     }
 
   return (

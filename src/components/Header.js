@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/header.css'
 import Menu from '../components/Menu.js'
 import { NavLink } from 'react-router-dom'
-import Routing from './Routing'
 
 export default function Header(props) {
   return (
