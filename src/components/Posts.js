@@ -1,24 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/posts.css'
 import Post from '../components/Post.js'
 
-function Posts({ props }) {
-  const posts = [
-      {
-        title: 'Making a design system from scratch',
-        date: '12 Feb 2020',
-        format: 'Design, Pattern',
-      },
+function Posts() {
+  const [posts] = useState([
+    {
+      title: 'Making a design system from scratch',
+      date: '12 Feb 2020',
+      format: 'Design, Pattern',
+    },
 
-      {
-        title: 'Creating pixel perfect icons in Figma',
-        date: '12 Feb 2020',
-        format: 'Figma, Icon Design',
-      },
-    ],
-    ShowMenu = () => {
-      // this.setState({ showMenu: true })
-    }
+    {
+      title: 'Creating pixel perfect icons in Figma',
+      date: '12 Feb 2020',
+      format: 'Figma, Icon Design',
+    },
+  ])
 
   return (
     <div className='posts'>

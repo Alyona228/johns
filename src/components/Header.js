@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/header.css'
 import Menu from '../components/Menu.js'
 import { NavLink } from 'react-router-dom'
 
-export default function Header(props) {
+function Header() {
+  const [menu, setMenu] = useState([{ menu: false }])
+ const  MobailShowMenu = {
+    setMenu([{
+      menu: true,
+    }])
+  }
+
   return (
     <div>
       <div className='header'>
@@ -31,7 +38,8 @@ export default function Header(props) {
           </div>
         </div>
       </div>
-      <Menu menu={props.showMenu} />
+      <Menu menu={menu} MobailShowMenu={MobailShowMenu} />
     </div>
   )
 }
+export default Header

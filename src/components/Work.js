@@ -11,69 +11,69 @@ export default function Work({ props }) {
   return (
     <div>
       <Header />
-      <div class='work'>
-        <div class='work_cont'>
-          <div class='work_img'>
+      <div className='work'>
+        <div className='work_cont'>
+          <div className='work_img'>
             <img src={image1} alt='рисунок' />
           </div>
-          <div class='work_content'>
-            <div class='work_content_h'>Designing Dashboards</div>
-            <div class='work_content_data'>
-              <div class='data'>2020</div>
+          <div className='work_content'>
+            <div className='work_content_h'>Designing Dashboards</div>
+            <div className='work_content_data'>
+              <div className='data'>2020</div>
               <span>Dashboard</span>{' '}
             </div>
-            <div class='work_content_p'>
+            <div className='work_content_p'>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </div>
           </div>
         </div>
-        <div class='work_cont'>
-          <div class='work_img'>
+        <div className='work_cont'>
+          <div className='work_img'>
             <img src={image2} alt='рисунок' />
           </div>
-          <div class='work_content'>
-            <div class='work_content_h'>Vibrant Portraits of 2020</div>
-            <div class='work_content_data'>
-              <div class='data'>2020</div>
+          <div className='work_content'>
+            <div className='work_content_h'>Vibrant Portraits of 2020</div>
+            <div className='work_content_data'>
+              <div className='data'>2020</div>
               <span>Illustration</span>{' '}
             </div>
-            <div class='work_content_p'>
+            <div className='work_content_p'>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </div>
           </div>
         </div>
-        <div class='work_cont'>
-          <div class='work_img'>
+        <div className='work_cont'>
+          <div className='work_img'>
             <img src={image3} alt='рисунок' />
           </div>
-          <div class='work_content'>
-            <div class='work_content_h'>36 Days of Malayalam type</div>
-            <div class='work_content_data'>
-              <div class='data'>2020</div>
+          <div className='work_content'>
+            <div className='work_content_h'>36 Days of Malayalam type</div>
+            <div className='work_content_data'>
+              <div className='data'>2020</div>
               <span>Typography</span>{' '}
             </div>
-            <div class='work_content_p'>
+            <div className='work_content_p'>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </div>
           </div>
         </div>
-        <div class='work_cont'>
-          <div class='work_img'>
+        <div className='work_cont'>
+          <div className='work_img'>
             <img src={image4} alt='рисунок' />
           </div>
-          <div class='work_content'>
-            <div class='work_content_h'>Components</div>
-            <div class='./'>
-              <div class='data'>2020</div>
+          <div className='work_content'>
+            <div className='work_content_h'>Components</div>
+            <div className='./'>
+              <div className='data'>2020</div>
               <span>Components, Design</span>{' '}
             </div>
-            <div class='work_content_p'>
+            <div className='work_content_p'>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
