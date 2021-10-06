@@ -4,11 +4,9 @@ import Menu from '../components/Menu.js'
 import { NavLink } from 'react-router-dom'
 
 function Header() {
-  const [menu, setMenu] = useState([{ menu: false }])
- const  MobailShowMenu = {
-    setMenu([{
-      menu: true,
-    }])
+  const [menu, setMenu] = useState(false)
+  const MobailShowMenu = () => {
+    setMenu(!menu)
   }
 
   return (
