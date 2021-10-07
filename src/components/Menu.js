@@ -5,15 +5,10 @@ import { NavLink } from 'react-router-dom'
 
 export default function Menu(props) {
   return (
-    <div className='header_content'>
+    <div className='menu_content'>
       <div className=''>
-        <div className='header_burger'>
-          <button onClick={props.MobailShowMenu}>
-            <img src={iconBurg} alt='это бургер' className='img' />
-          </button>
-        </div>
         {props.menu ? (
-          <nav className='heder_discreption'>
+          <nav className='header_discreption'>
             <ul className='menu_ul'>
               <li>
                 <NavLink to='/works' className='menu_link'>
@@ -33,12 +28,11 @@ export default function Menu(props) {
             </ul>
           </nav>
         ) : undefined}
-
-        {/* <Router>
-          <Switch>
-            <Route exact path='/work' component={Work} />
-          </Switch>
-        </Router> */}
+        <div className='header_burger'>
+          <button onClick={props.MobailShowMenu}>
+            <img src={iconBurg} alt='это бургер' className='img' />
+          </button>
+        </div>
       </div>
     </div>
   )

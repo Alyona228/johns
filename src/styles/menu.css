@@ -42,9 +42,19 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 42px;
     font-weight: 200%;
+    left: 113%;
+    transform: translateX(-15%);
+    bottom: 211%;
+    box-sizing: border-box;
   }
   .header_burger button {
     border: none;
     background-color: white;
+  }
+  .menu_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 375px;
   }
 }

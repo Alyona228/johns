@@ -1,10 +1,9 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header'
 import Routing from './components/Routing'
 
-class App extends React.Component {
-  render() {
+function App() {
+  {
     return (
       <div className='App'>
         <Routing />

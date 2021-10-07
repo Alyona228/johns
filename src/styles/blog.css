@@ -25,8 +25,10 @@
   margin: 0px 0px;
   flex-direction: column;
   justify-content: start;
+  border-bottom: solid 1px #8695a4;
+  padding-bottom: 60px;
 }
-.main_blog_h {
+.main_blog_title {
   padding-top: 40px;
   padding-bottom: 0px;
   font-weight: 110;
@@ -53,4 +55,42 @@
   margin: 0px 0px 0px 0px;
   padding-top: 0px;
   padding-bottom: 50px;
+}
+@media (max-width: 375px) {
+  .main {
+  }
+
+  .main h1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    font-size: 30px;
+  }
+  .main_blog {
+    width: 339px;
+    margin: 0px 0px;
+  }
+  .main_blog_title {
+    padding-top: 20px;
+    font-weight: 90;
+    line-height: 37px;
+    font-size: 23px;
+  }
+  .main_format {
+    color: #8695a4;
+  }
+  .main_blog_text {
+    box-sizing: border-box;
+    height: 43px;
+    border-radius: 'undefinedpx';
+    font-family: 'Heebo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .main_blog_text:last-children {
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
 }
