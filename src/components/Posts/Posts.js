@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../styles/posts.css'
-import Post from '../components/Post.js'
+import '../Posts/Posts.css'
+import Post from '../Post/Post.js'
 
 function Posts() {
   const [posts] = useState([

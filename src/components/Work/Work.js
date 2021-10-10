@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/work.css'
+import '../styles/Work.css'
 import image1 from '../img/im1.jpg'
 import image2 from '../img/im2.png'
 import image3 from '../img/im3.jpg'

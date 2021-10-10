@@ -1,23 +1,12 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
 .works {
-  width: 100%;
-  padding-bottom: 32px;
-  padding-top: 29px;
-  font-family: 'Heebo';
-  text-align: left;
-  color: #21243d;
-  margin-left: 10%;
-  font-size: 22px;
-  line-height: 60px;
+  
 }
 .works_title {
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  margin-left: 0px;
+  
 }
 .work_featured {
   width: 856px;
@@ -28,6 +17,7 @@
   transform: translateX(-50%);
 }
 .works_container {
+  text-align: left;
   display: flex;
   flex-direction: row;
   padding-bottom: 32px;
@@ -42,43 +32,29 @@
   font-weight: 700;
   line-height: 44px;
 }
-.menu_body a {
-  text-decoration: none;
+
+.menu_link {
+  color: #21243d;
+  font-family: 'Heebo';
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 44px;
+  align-items: left;
 }
-.works_data {
-  display: flex;
-  margin-top: 9px;
-  margin-bottom: 32px;
-}
-.works_data_info {
-  font-size: 18px;
-  font-weight: 900;
-  color: #ffffff;
-  border-radius: 16px;
-  width: 62px;
-  height: 25px;
-  background-color: black;
-  text-align: center;
-  display: inline-block;
-  line-height: 25px;
-  margin-right: 26px;
-}
-.works_data span {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 29px;
-  color: #8695a4;
-}
+
+
 .works_description {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
+.works:last-child {
+  display: flex;
+}
 @media (max-width: 375px) {
   .works {
     text-align: center;
     margin: 0 auto;
-    max-width: 375px;
     padding: auto 10px;
   }
   .works_imge {
@@ -88,7 +64,7 @@
     width: 100%;
   }
   .works_content {
-    padding-left: 40px;
+    height: 60px;
   }
   .work_featured {
     max-width: 370px;
@@ -106,22 +82,15 @@
     flex-direction: column;
   }
   .works_title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
     text-align: left;
   }
-  .works_data {
-    margin-top: 16px;
-    margin-bottom: 24px;
-  }
-  .works_data_info {
-    text-align: center;
-  }
+  
   .works_description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
   }
-}
+  a .menu_link {
+  }
+} */

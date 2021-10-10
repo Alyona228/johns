@@ -1,8 +1,7 @@
 import React from 'react'
-import Footer from '../Footer'
-import Header from '../Header'
-import '../../styles/BlogPages.css'
-import Blog from '../Blog'
+import Footer from '../../Footer/Footer.js'
+import Header from '../../Header/Header.js'
+import Blog from '../../Blog/Blog.js'
 
 export default function BlogPages(props) {
   return (

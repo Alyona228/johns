@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/menu.css'
-import iconBurg from '../icons/hamburg.svg'
+import '../Menu/Menu.css'
+import iconBurg from '../../icons/hamburg.svg'
 import { NavLink } from 'react-router-dom'
 
 export default function Menu(props) {

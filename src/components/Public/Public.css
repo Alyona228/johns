@@ -1,0 +1,142 @@
+.works {
+  width: 100%;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 32px;
+  text-align: left;
+  font-family: 'Heebo';
+  color: #21243d;
+}
+.work_featured {
+  width: 850px;
+  padding-top: 29px;
+  margin-left: 10%;
+  font-size: 22px;
+  line-height: 60px;
+}
+.works_container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.works_imge {
+  display: block;
+  box-sizing: border-box;
+}
+.works_content {
+  margin-left: 24px;
+  font-family: 'Heebo';
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.works_title {
+  text-decoration: none;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  margin-left: 0px;
+}
+.menu_body a {
+  text-decoration: none;
+}
+.works_menu_link {
+  text-decoration: none;
+  color: #21243d;
+  font-family: 'Heebo';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.works_data_info {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  line-height: 25px;
+  margin-right: 26px;
+}
+.works_data span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.works_data {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.works_description {
+  width: 594px;
+  font-family: 'Heebo';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media (max-width: 375px) {
+  .works {
+    margin: 0 auto;
+  }
+
+  .work_featured {
+    width: 375px;
+  }
+  .works_container {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+  }
+  .works_imge {
+  }
+  .works_content {
+    margin-left: 4px;
+  }
+  .works_title {
+    width: 375px;
+    height: 60px;
+  }
+  .menu_body {
+  }
+  a.works_menu_link {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 38px;
+    color: #21243d;
+    font-weight: bold;
+
+    padding: 0;
+  }
+
+  .works_data {
+  }
+  .works_data_info {
+  }
+  .works_description {
+    width: 314px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+}

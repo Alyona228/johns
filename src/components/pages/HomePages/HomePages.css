@@ -23,3 +23,6 @@
   text-align: left;
   margin-left: 25%;
 }
+.works:last-child {
+  display: none;
+}

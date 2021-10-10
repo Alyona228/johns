@@ -1,7 +1,7 @@
 import React from 'react'
-import '../../styles/PersonaWork.css'
-import Footer from '../Footer'
-import PersonaWork from '../PersonaWork'
+import '../PersonaWork/PersonaWork.css'
+import Footer from '../Footer/Footer.js'
+import PersonaWork from '../PersonaWork/PersonaWork.js'
 
 export default function PersonaWorkPages(params) {
   return (

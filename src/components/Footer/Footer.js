@@ -1,9 +1,9 @@
 import React from 'react'
-import '../styles/footer.css'
-import FaceBuck from '../icons/fb.svg'
-import Instagram from '../icons/insta.svg'
-import Twitter from '../icons/Group.svg'
-import Linkedin from '../icons/Linkedin.svg'
+import '../Footer/Footer.css'
+import FaceBuck from '../../icons/fb.svg'
+import Instagram from '../../icons/insta.svg'
+import Twitter from '../../icons/Group.svg'
+import Linkedin from '../../icons/Linkedin.svg'
 
 export default function Footer(params) {
   return (

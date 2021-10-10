@@ -1,11 +1,11 @@
 import React from 'react'
-import '../styles/Blog.css'
+import '../Blog/Blog.css'
 
 export default function Blog(params) {
   return (
     <>
-      <h1>Blog</h1>
       <div className='main'>
+        <h1>Blog</h1>
         <div className='main_blog'>
           <div className='main_blog_title'>Ul interactions on the week</div>
           <div className='main_blog_data'>

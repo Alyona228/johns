@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '../Public/Public.css'
 
 export default function Public(props) {
   return (
@@ -12,7 +13,7 @@ export default function Public(props) {
           <div className='works_content'>
             <div className='works_title'>
               <nav className='menu_body'>
-                <NavLink to='/persona' className='menu_link'>
+                <NavLink to='/persona' className='works_menu_link'>
                   {props.title}
                 </NavLink>
               </nav>

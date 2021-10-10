@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../styles/header.css'
-import Menu from '../components/Menu.js'
+import '../Header/Header.css'
+import Menu from '../Menu/Menu.js'
 import { NavLink } from 'react-router-dom'
 
 function Header() {

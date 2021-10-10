@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../Footer'
-import Header from '../Header'
-import Works from '../Works'
-import '../../styles/WorksPages.css'
+import Footer from '../../Footer/Footer.js'
+import Header from '../../Header/Header.js'
+import Works from '../../Works/Works.js'
+import '../WorksPages/WorksPages.css'
 
 export default function WorksPages(props) {
   return (

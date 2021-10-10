@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import '../styles/works.css'
-import Image1 from '../img/im1.jpg'
-import Image2 from '../img/im2.png'
-import Image3 from '../img/im3.jpg'
-import Image4 from '../img/im4.jpg'
-import Public from './Public'
+import '../Works/Works.css'
+import Image1 from '../../img/im1.jpg'
+import Image2 from '../../img/im2.png'
+import Image3 from '../../img/im3.jpg'
+import Image4 from '../../img/im4.jpg'
+import Public from '../Public/Public.js'
 
 function Works() {
-  const [job] = useState([
+  const [job, setJob] = useState([
     {
       id: 1,
       image: Image1,
@@ -49,6 +49,7 @@ function Works() {
 
   return (
     <div>
+      <div className='works'>Featured works</div>
       {job.map((work, key) => (
         <Public
           key={key}

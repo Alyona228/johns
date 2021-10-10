@@ -1,9 +1,9 @@
 import React from 'react'
-import '../styles/PersonaWork.css'
-import Restangle from '../img/Rectangle4.png'
-import Restangle1 from '../img/Rectangle 5.png'
-import Restangle2 from '../img/Rectangle 6.png'
-import Footer from './Footer'
+import '../PersonaWork/PersonaWork.css'
+import Restangle from '../../img/Rectangle4.png'
+import Restangle1 from '../../img/Rectangle 5.png'
+import Restangle2 from '../../img/Rectangle 6.png'
+import Footer from '../Footer/Footer.js'
 
 export default function PersonaWork(props) {
   return (

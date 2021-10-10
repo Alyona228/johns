@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/portfolio.css'
-import Avatar from '../img/john.jpg'
+import '../Portfolio/Portfolio.css'
+import Avatar from '../../img/john.jpg'
 export default function Portfolio(props) {
   return (
     <div className='portfolio'>
