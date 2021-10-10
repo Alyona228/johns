@@ -71,7 +71,11 @@ a:hover {
 li:last-children {
   margin: 0px 0px 0px 0px;
 }
-
+.img {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
 @media (max-width: 375px) {
   .header_menu {
     flex-direction: column;

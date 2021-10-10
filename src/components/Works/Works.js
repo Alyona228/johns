@@ -7,7 +7,7 @@ import Image4 from '../../img/im4.jpg'
 import Public from '../Public/Public.js'
 
 function Works() {
-  const [job, setJob] = useState([
+  const [job] = useState([
     {
       id: 1,
       image: Image1,

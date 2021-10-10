@@ -42,10 +42,16 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 42px;
     font-weight: 200%;
-    left: 113%;
+    left: 90%;
     transform: translateX(-15%);
     bottom: 211%;
     box-sizing: border-box;
+  }
+  .header_discreption {
+    margin-top: -40%;
+    margin-left: -50%;
+    font-size: 38px;
+    font-weight: 200%;
   }
   .header_burger button {
     border: none;

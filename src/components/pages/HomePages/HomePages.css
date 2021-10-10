@@ -1,10 +1,12 @@
 .works {
-  width: 100%;
+  max-width: 850px;
   padding-bottom: 32px;
   padding-top: 29px;
   font-family: 'Heebo';
   text-align: left;
   color: #21243d;
+  left: 50%;
+  transform: translateX(-50);
 }
 .works_header {
   text-align: left;
@@ -13,10 +15,10 @@
   text-align: left;
 }
 .works_pages {
-  max-width: 1140px;
   height: 100%;
-  left: 50%;
-  transform: translateX(-50);
+  margin-left: 0px;
+  left: 0px;
+  padding-left: 0px;
   background-color: blueviolet;
 }
 .homepages_title {

@@ -12,9 +12,9 @@
 .work_featured {
   width: 850px;
   padding-top: 29px;
-  margin-left: 10%;
   font-size: 22px;
   line-height: 60px;
+  margin-top: -50px;
 }
 .works_container {
   display: flex;
@@ -25,6 +25,8 @@
   line-height: 44px;
   letter-spacing: 0px;
   text-align: left;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #e0e0e0;
 }
 .works_imge {
   display: block;
@@ -100,6 +102,8 @@
 
   .work_featured {
     width: 375px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .works_container {
     width: 327px;
