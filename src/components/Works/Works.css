@@ -51,7 +51,7 @@
 .works:last-child {
   display: flex;
 }
-@media (max-width: 375px) {
+@media (max-width: 410px) {
   .works {
     text-align: center;
     margin: 0 auto;

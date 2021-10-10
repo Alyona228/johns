@@ -58,12 +58,12 @@
 .portfolio_photo img {
   display: block;
 }
-@media (max-width: 375px) {
+@media (max-width: 410px) {
   .portfolio {
     text-align: center;
   }
   .portfolio_biography {
-    max-width: 375px;
+    max-width: 410px;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;

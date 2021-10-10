@@ -76,7 +76,7 @@ li:last-children {
   text-decoration: none;
   border: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 410px) {
   .header_menu {
     flex-direction: column;
     justify-content: flex-start;

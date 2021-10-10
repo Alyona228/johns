@@ -29,7 +29,7 @@ a:hover {
 .menu_li {
   list-style: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 410px) {
   .header_burger {
     border: none;
     background-color: white;
@@ -61,6 +61,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    max-width: 375px;
+    max-width: 410px;
   }
 }
