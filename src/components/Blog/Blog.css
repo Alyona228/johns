@@ -33,7 +33,6 @@
   padding-bottom: 0px;
   font-weight: 110;
   line-height: 55px;
-
   font-style: 'Medium';
   font-size: 30px;
   color: #21243d;
@@ -57,9 +56,6 @@
   padding-bottom: 50px;
 }
 @media (max-width: 410px) {
-  .main {
-  }
-
   .main h1 {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px;

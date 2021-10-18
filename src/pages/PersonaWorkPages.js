@@ -1,8 +1,7 @@
 import React from 'react'
-import '../PersonaWork/PersonaWork.css'
-import Footer from '../Footer/Footer.js'
-import PersonaWork from '../PersonaWork/PersonaWork.js'
-import Header from '../Header/Header'
+import Footer from '../components/Footer/Footer'
+import PersonaWork from '../components/PersonaWork/PersonaWork.js'
+import Header from '../components/Header/Header'
 export default function PersonaWorkPages(params) {
   return (
     <div className='personaWork'>

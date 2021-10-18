@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../../Footer/Footer.js'
-import Header from '../../Header/Header.js'
-import Works from '../../Works/Works.js'
+import Footer from '../../components/Footer/Footer.js'
+import Header from '../../components//Header/Header.js'
+import Works from '../../components/Works/Works.js'
 import '../WorksPages/WorksPages.css'
 
 export default function WorksPages(props) {

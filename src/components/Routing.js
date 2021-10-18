@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route } from 'react-router'
-import HomePages from './pages/HomePages/HomePages.js'
-import WorksPages from './pages/WorksPages/WorksPages.js'
-import BlogPages from './pages/BlogPages/BlogPages.js'
-import PersonaWorkPages from './pages/PersonaWorkPages.js'
+import HomePages from '../pages/HomePages/HomePages.js'
+import WorksPages from '../pages/WorksPages/WorksPages.js'
+import BlogPages from '../pages/BlogPages/BlogPages.js'
+import PersonaWorkPages from '../pages/PersonaWorkPages.js'
 
 export default function Routing(props) {
   return (

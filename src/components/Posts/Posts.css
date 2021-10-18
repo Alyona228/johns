@@ -67,23 +67,12 @@
   .posts_content {
     flex-direction: column;
   }
-  .posts_header {
-  }
+
   .posts_post {
     margin-bottom: 15px;
     width: 354px;
   }
   .posts_post:last-child {
     margin-bottom: 0;
-  }
-  .posts_title {
-  }
-  .posts_info {
-  }
-  .posts_date {
-  }
-  .posts_format {
-  }
-  .posts_text {
   }
 }

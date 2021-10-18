@@ -37,8 +37,6 @@ body {
   line-height: 29px;
   text-align: right;
 }
-.menu_body {
-}
 .menu_list {
   list-style: none;
   display: flex;
@@ -91,8 +89,7 @@ li:last-children {
   .menu_list a {
     display: none;
   }
-  .menu_link {
-  }
+
   .img {
     display: flex;
     width: 50px;

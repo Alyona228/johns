@@ -119,8 +119,7 @@
     width: 410px;
     height: 60px;
   }
-  .menu_body {
-  }
+
   a.works_menu_link {
     font-size: 20px;
     font-weight: 500;
@@ -132,10 +131,6 @@
     padding: 0;
   }
 
-  .works_data {
-  }
-  .works_data_info {
-  }
   .works_description {
     width: 314px;
     font-size: 16px;

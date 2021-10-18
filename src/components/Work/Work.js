@@ -7,7 +7,7 @@ import image4 from '../img/im4.jpg'
 import Footer from './Footer'
 import Header from './Header'
 
-export default function Work({ props }) {
+export default function Work() {
   return (
     <div>
       <Header />

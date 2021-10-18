@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../Works/Works.css'
 import Image1 from '../../img/im1.jpg'
 import Image2 from '../../img/im2.png'
@@ -6,8 +6,8 @@ import Image3 from '../../img/im3.jpg'
 import Image4 from '../../img/im4.jpg'
 import Public from '../Public/Public.js'
 
-function Works() {
-  const [job] = useState([
+function Works({ worksNumber }) {
+  const jobs = [
     {
       id: 1,
       image: Image1,
@@ -45,12 +45,12 @@ function Works() {
       description:
         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet.',
     },
-  ])
-
+  ]
+  const jobsToShow = jobs.slice(0, worksNumber ?? jobs.length)
   return (
     <div>
       <div className='works'>Featured works</div>
-      {job.map((work, key) => (
+      {jobsToShow.map((work, key) => (
         <Public
           key={key}
           image={work.image}
