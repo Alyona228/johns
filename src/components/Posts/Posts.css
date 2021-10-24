@@ -3,34 +3,55 @@
 }
 .posts {
   background-color: #edf7fa;
-  width: 100%;
-  padding-bottom: 32px;
+  max-width: 1400px;
+  padding: 5% 10%;
   padding-top: 7px;
   font-family: 'Heebo';
+  margin: 0 10px;
+  text-align: left;
 }
 .posts_container {
-  width: 856px;
   position: relative;
   display: flex;
   left: 50%;
   transform: translateX(-50%);
   flex-direction: column;
+  max-width: 850px;
 }
 .posts_header {
   font-size: 22px;
   font-weight: 400;
   line-height: 60px;
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   color: #21243d;
+  max-width: 850px;
+}
+.post_header_right {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(0, 168, 204, 1);
 }
 .posts_content {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  width: calc(100% - 32px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 16px;
 }
 .posts_post {
   background-color: #fff;
   padding: 24px 21px 24px 23px;
-  width: 418px;
+  max-width: 418px;
+  margin-right: 20px;
+}
+.posts_post:last-child {
+  margin-right: 0px;
 }
 .posts_title {
   font-size: 26px;
@@ -56,23 +77,66 @@
   font-size: 16px;
   line-height: 24px;
 }
-
-@media (max-width: 410px) {
-  .posts {
-    text-align: left;
+@media (max-width: 860px) {
+  .post_header_right {
+    display: none;
   }
+  .posts {
+    padding: 3% 1%;
+  }
+  .posts_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .posts_info {
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 7px;
+  }
+  .posts_header {
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .posts_date {
+    padding-right: 11px;
+    border-right: 1px solid #000;
+  }
+  .posts_format {
+    padding-left: 11px;
+  }
+  .posts_text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .posts_post {
+    margin: 0px 0px 0 0px;
+    max-width: 47%;
+  }
+  .posts_post:last-child {
+    margin: 0 15px 10px -20px;
+  }
+}
+@media (max-width: 446px) {
+  .posts {
+    width: 100vw;
+    padding: 0 15px;
+    margin: 0px auto;
+  }
+
   .posts_container {
-    width: 354px;
+    margin: 0 auto;
   }
   .posts_content {
     flex-direction: column;
+    width: calc(100% - 32px);
+    justify-content: center;
+    align-items: center;
   }
 
   .posts_post {
-    margin-bottom: 15px;
-    width: 354px;
-  }
-  .posts_post:last-child {
-    margin-bottom: 0;
+    margin: 0 15px 10px -20px;
+    max-width: 100%;
   }
 }

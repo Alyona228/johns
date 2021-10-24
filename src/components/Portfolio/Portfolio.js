@@ -2,12 +2,13 @@ import React from 'react'
 import '../Portfolio/Portfolio.css'
 import Avatar from '../../img/john.jpg'
 export default function Portfolio(props) {
+  let dateTimeNow = new Date().toLocaleString()
   return (
     <div className='portfolio'>
       <div className='portfolio_biography'>
         <div className='portfolio_content'>
           <div className='portfolio_name'>
-            Hi, I am John, Creative Technologist
+            Hi, I am John, Creative Technologist{dateTimeNow}
           </div>
           <div className='portfolio_description'>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

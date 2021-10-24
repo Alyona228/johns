@@ -74,6 +74,29 @@ li:last-children {
   text-decoration: none;
   border: none;
 }
+
+.header__button {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header__burger {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 850px) {
+  .header__burger {
+    display: none;
+  }
+}
 @media (max-width: 410px) {
   .header_menu {
     flex-direction: column;

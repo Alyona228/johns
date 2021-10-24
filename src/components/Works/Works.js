@@ -49,7 +49,7 @@ function Works({ worksNumber }) {
   const jobsToShow = jobs.slice(0, worksNumber ?? jobs.length)
   return (
     <div>
-      <div className='works'>Featured works</div>
+      <div className='works'></div>
       {jobsToShow.map((work, key) => (
         <Public
           key={key}

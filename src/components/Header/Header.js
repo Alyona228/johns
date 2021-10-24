@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import '../Header/Header.css'
 import Menu from '../Menu/Menu.js'
 import { NavLink } from 'react-router-dom'
-
+import iconBurg from '../../icons/hamburg.svg'
 function Header() {
   const [menu, setMenu] = useState(false)
-  const MobailShowMenu = () => {
+  const mobileShowMenu = () => {
     setMenu(!menu)
   }
 
@@ -36,7 +36,10 @@ function Header() {
           </div>
         </div>
       </div>
-      <Menu menu={menu} MobailShowMenu={MobailShowMenu} />
+      <button className='header__button' onClick={mobileShowMenu}>
+        <img className='header__burger' src={iconBurg} />
+      </button>
+      {menu && <Menu menu={menu} onClose={mobileShowMenu} />}
     </div>
   )
 }

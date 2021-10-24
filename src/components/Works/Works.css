@@ -1,3 +1,12 @@
+.works_header {
+  align-items: left;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: -50px;
+}
+
 /* * {
   box-sizing: border-box;
 }

@@ -9,6 +9,13 @@
   font-family: 'Heebo';
   color: #21243d;
 }
+.works_header {
+  align-items: left;
+  display: flex;
+  position: relative;
+  justify-content: start;
+  margin-top: 16px;
+}
 .work_featured {
   width: 850px;
   padding-top: 29px;
@@ -95,26 +102,49 @@
   letter-spacing: 0px;
   text-align: left;
 }
-@media (max-width: 410px) {
-  .works {
-    margin: 0 auto;
+@media (max-width: 850px) {
+  .works_content {
+    max-width: 45%;
   }
-
-  .work_featured {
+  a.works_menu_link {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 38px;
+    font-weight: bold;
+    padding: 0;
+  }
+  .works_data {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 410px) {
+  . .work_featured {
     width: 410px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .works_header {
+    justify-content: center;
+  }
+  .works_content {
+    max-width: 100%;
   }
   .works_container {
     width: 327px;
     display: flex;
     flex-direction: column;
+    margin-left: 16px;
   }
-  .works_imge {
+  .works_imge img {
+    display: block;
+    width: 75vw;
   }
-  .works_content {
-    margin-left: 4px;
-  }
+
   .works_title {
     width: 410px;
     height: 60px;
@@ -127,7 +157,6 @@
     line-height: 38px;
     color: #21243d;
     font-weight: bold;
-
     padding: 0;
   }
 

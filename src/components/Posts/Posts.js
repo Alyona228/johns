@@ -20,7 +20,11 @@ function Posts() {
   return (
     <div className='posts'>
       <div className='posts_container'>
-        <div className='posts_header'>Recent posts</div>
+        <div className='posts_header'>
+          <p>Recent posts</p>
+          <p className='post_header_right'>View all</p>
+        </div>
+
         <div className='posts_content'>
           {posts.map((post, key) => (
             <Post

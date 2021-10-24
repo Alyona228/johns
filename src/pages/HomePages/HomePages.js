@@ -11,7 +11,8 @@ function HomePages() {
       <Header />
       <Portfolio />
       <Posts />
-      <Works className='works_pages' worksNumber={1} />
+      <span className='works_header'>Featured works</span>
+      <Works className='works_pages' worksNumber={3} />
       <Footer />
     </>
   )
