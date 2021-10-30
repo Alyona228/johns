@@ -8,7 +8,8 @@ export default function Portfolio(props) {
       <div className='portfolio_biography'>
         <div className='portfolio_content'>
           <div className='portfolio_name'>
-            Hi, I am John, Creative Technologist{dateTimeNow}
+            Hi, I am John, Creative Technologist
+            <p>сейчас:{dateTimeNow}</p>
           </div>
           <div className='portfolio_description'>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

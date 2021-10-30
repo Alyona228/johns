@@ -4,7 +4,7 @@ import Restangle from '../../img/Rectangle4.png'
 import Restangle1 from '../../img/Rectangle 5.png'
 import Restangle2 from '../../img/Rectangle 6.png'
 
-export default function PersonaWork(props) {
+export default function PersonaWork() {
   return (
     <div className='persona_content'>
       <div className='persona_title'>

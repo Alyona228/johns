@@ -10,6 +10,11 @@
 }
 .works_header {
   text-align: left;
+  margin-left: 10%;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  font-family: 'Heebo';
 }
 .work_title {
   text-align: left;
