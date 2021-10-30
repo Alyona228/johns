@@ -29,6 +29,9 @@
   justify-content: space-between;
 }
 .background_footer {
+  width: 100vw;
+}
+.background_footer {
   position: absolute;
   margin-bottom: 0px;
   bottom: 0px;
